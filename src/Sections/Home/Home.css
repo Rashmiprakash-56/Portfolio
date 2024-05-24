@@ -1,0 +1,111 @@
+/* color : #efe7de */
+img{
+    height: 30vh;
+    width: 15vw;
+    border-radius: 50%;
+}
+.home-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    
+}
+.title-card{
+    display: flex;
+    -webkit-box-shadow: -10px 0px 16px 0px rgba(0,0,0,0.47); 
+    box-shadow: -10px 0px 16px 0px rgba(0,0,0,0.47);
+    gap:2rem;
+}
+.section_picContainer,.detail-text{
+    
+    width: 35vw;
+    height: 64vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section_picContainer{
+    background-color:  #efe7de;
+    margin-right: 1rem;
+}
+.detail-text{
+    align-items: start;
+}
+.p1{
+
+    color: darkgrey;
+    font-size: 2rem;
+}
+.p2{
+    font-size: .8rem;
+    padding-top: 2rem;
+}
+.p3{
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+hr{
+    width: 10%;
+    text-align:left;
+    margin: 1rem;
+    height: 2px;
+    border-width: 0;
+    background-color: navy;
+}
+.home-title-text{
+    font: 1em; 
+}
+
+.home-icons{
+    height: 1.9rem;
+    width: 1.9rem;
+    padding: 0.5rem;
+}
+.home-btns{
+    display: flex;
+    justify-content:centre;
+    align-items: center;
+    
+}
+.resume-button {
+    font-size: 1rem;
+    background-color: #0e69a2;
+    color: white;
+    border: solid transparent 2px;
+    border-radius: 20px;
+    padding: 13px 28px;
+    margin-right: 20px;
+    transition: background-color 0.3s ease;
+  }
+
+  .resume-button:hover{
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    border: solid  #0e69a2 2px;
+    border-radius: 20px;
+    padding: 13px 28px;
+    cursor: pointer;
+  }
+  
+  .projects-button {
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    border: solid black 1px;
+    border-radius: 20px;
+    padding: 13px 28px;
+    transition: background-color 0.3s ease;
+  }
+  .projects-button:hover{
+    font-size: 1rem;
+    background-color: #0e69a2;
+    color: white;
+    border:  solid transparent 2px;
+    border-radius: 20px;
+    padding: 13px 28px;
+    cursor: pointer;
+  }
+  

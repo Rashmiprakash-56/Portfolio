@@ -1,0 +1,101 @@
+.contact-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 150%;
+    width: 100%;
+    padding-top: 15vh;
+    
+}
+.contact-title{
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: cyan;
+}
+.contact-line{
+    width: 13vw;
+}
+.about-container{
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+}
+.contact-me-text{
+    width: 50%;
+   
+}
+.contact-form{
+    width: 100%;
+    height:fit-content
+}
+
+.contact-heading{
+    font-weight: bolder;
+    
+    padding-bottom: 2rem;
+}
+.contact-msg{
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+.contact-icons{
+  height: 1.9rem;
+  width: 1.9rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+/* form css */
+
+.contact-me-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  
+  .contact-me-form input,
+  .contact-me-form textarea {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .contact-me-form input:focus,
+  .contact-me-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .contact-me-form textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .form-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .form-submit:hover {
+    background-color: #0056b3;
+  }
+  

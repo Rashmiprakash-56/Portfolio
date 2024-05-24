@@ -1,0 +1,55 @@
+#Contact{
+    padding-bottom: 20rem;
+    gap: 20rem;
+}
+.project-title{
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: cyan;
+}
+.project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50vw;
+    margin: 2rem;
+   
+}
+.project-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height:100%;
+    padding-top: 15vh;
+    padding-bottom: 20rem;
+}
+.project-line{ 
+    width: 8vw;
+}
+.project-pic{
+    height:20rem;
+    width: 25rem;
+    border-radius:0 ;
+}
+.project-desc{
+    padding-left: 2rem;
+    margin-bottom: 0.8rem;
+}
+.techs{
+    display: flex;
+    justify-content: space-between;
+}
+.project-links{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.project-link-git{
+    height: 2rem;
+    width: 2rem;
+}
+.project-heading{
+    margin-bottom: 0.8rem;
+    font-style: 2rem italic;
+}

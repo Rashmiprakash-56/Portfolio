@@ -1,0 +1,12 @@
+.footer-txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #efe7de;
+    height: 8vh;
+}
+.f-txt{
+    font-size: 1rem;
+    font-style: italic;
+}
